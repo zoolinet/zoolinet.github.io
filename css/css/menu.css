@@ -1,0 +1,36 @@
+h1 {
+    color: rgb(82, 194, 82);
+    font-style: italic;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    font-family: Arial, sans-serif;
+    font-size: 11pt;
+}
+
+#menu ul li {
+    background-color: #1b1a19;
+    background-image: url('leon.jpg');
+    background-size: cover; /* Ajusta el tamaño para cubrir todo el elemento */
+    background-repeat: no-repeat;
+    background-position: center center; /* Centra la imagen tanto horizontal como verticalmente */
+    height: 10vh; /* Establece la altura del elemento para que ocupe toda la altura de la pantalla */
+}
+
+#menu ul li a {
+    color: #fffafa;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    padding: 10px 10px 10px 20px;
+}
+
+#menu ul li a:hover {
+    background: #0a0a0a;
+    border-left: 10px solid #666;
+    color: #ffffff;
+}

@@ -1,0 +1,19 @@
+.cuadro-negro {
+    background-color: #000; /* Color de fondo negro */
+    color: #fff; /* Color del texto en blanco */
+    text-align: center; /* Alinea el contenido en el centro horizontal */
+    padding: 20px; /* Espaciado interno del cuadro */
+    max-width: 300px; /* Ancho máximo del cuadro */
+    margin: 0 auto; /* Centra el cuadro horizontalmente en la página */
+    border-radius: 10px 20px 30px 40px;
+}
+
+.cuadro-negro img {
+    max-width: 100%; /* Ajusta el tamaño de la imagen al ancho del cuadro */
+    display: block; /* Evita que la imagen tenga espacio adicional debajo */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
+.cuadro-negro p {
+    margin-top: 10px; /* Espaciado superior entre la imagen y el texto */
+}

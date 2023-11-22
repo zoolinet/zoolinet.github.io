@@ -1,0 +1,89 @@
+
+
+.imagen-acua{
+    max-width: 100%;
+    height: auto;
+    margin: 5px;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px; 
+    cursor: pointer; 
+
+}
+.imagen-aqua{
+    max-width: 100%;
+    height: auto;
+    margin: 5px;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer; 
+
+}
+
+
+.image-row img {
+    max-width: 100%;
+    height: auto;
+    margin: 5px;
+    transition: transform 0.2s;
+}
+
+
+.image-row img:hover {
+    transform: scale(1.8); 
+}
+img[title] {
+    border: 1px solid #ccc;
+    padding: 5px;
+    background-color: #fff;
+    color: #333;
+    font-size: 14px;
+}
+body{
+    background-image: url('C:/Users/alber/OneDrive/Escritorio/ZOO/multimedia/multimedia/fondohoja.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+        
+        
+    
+}
+
+h1 {
+    font-family: "Amasis MT Pro Black", sans-serif; 
+        text-align: center;
+        font-family: Arial, sans-serif; 
+        font-size: 24px; 
+        font-weight: bold; 
+ }
+ .cuadro-negro {
+    background-color: #010101eb; 
+    color: #fff;
+    text-align: center; 
+    padding: 20px; 
+    max-width: 400px; 
+    margin: 0 auto; 
+    border-radius: 10px 20px 40px 90px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    
+}
+
+.cuadro-negro img {
+    max-width: 100%; 
+    display: block; 
+    margin: 0 auto; 
+}
+
+.cuadro-negro p {
+    margin-top: 10px; 
+}
+.imagen-con-texto {
+  margin-right: 20px; 
+}
+.texto-debajo {
+    height: auto; 
+    overflow: hidden; 
+}

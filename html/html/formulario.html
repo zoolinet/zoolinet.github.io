@@ -1,0 +1,50 @@
+<html> 
+<head>
+    <meta charset="utf-8">
+    <title>Formulario de Prueba</title>
+    <link rel="stylesheet" href="C:\Users\alber\OneDrive\Escritorio\ZOO\css\css\/login.css">
+
+</head>
+<body>
+    <form action="" id="formulario">
+    <section class="form-login">
+        <h5>QUEJAS Y SUGERENCIAS</h5>
+        <textarea  cols="20" rows="3"   class="charset" type="textarea" name="" value=""></textarea>
+        <br>
+        <label for="phone"> <br> Telefono: </label>
+        <input type="tel" id="phone" name="phone" maxlength="10"><br><br>
+        <br>
+    <label for="email"> Correo Electronico: </label>
+    <input type="email" id="email" name="email" required><br><br>
+    <br>
+    <label for="food">Animal favorito:</label>
+    <select id="food" name="food" required>
+        <option value="Leon">Leon</option>
+        <option value="Cebra">Cebra</option>
+        <option value="Hipopotamo">Hipopotamo</option><br><br>
+        </select>
+      <br>
+      <br>
+        <div>
+        <label for="choose"> ¿Prefieres acuario o aviario?</label>
+        <input type="text"
+        id="choose"
+        name="i_like"
+        required
+        minlength="7"
+        maxlength="7">
+        </div>
+
+
+         <input class="buttons" type="submit"  onclick="return enviarFormulario()" value="Enviar">
+
+        </form>
+
+
+    </section>
+
+    <div id="error"></div>
+    <div id="bueno"></div>
+<script src="../js/form.js"></script>
+</body>
+</html>

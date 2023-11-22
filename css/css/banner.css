@@ -1,0 +1,17 @@
+body{
+    background-image: url("C:/Users/alber/OneDrive/Escritorio/ZOO/multimedia/multimedia/banneroriginal.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px 0px;
+}
+
+h5 {
+
+	font-family: cursive;
+	font-style: verdana;
+    text-align: right;
+    font-size: 50px;
+    color: rgb(239, 248, 239);
+    
+}
